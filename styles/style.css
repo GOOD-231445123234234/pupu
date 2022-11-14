@@ -1,0 +1,85 @@
+*{
+    background-size:cover;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-content{
+    background: url(../images/header.png) no-repeat center/cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.header-content-para h1 {
+    padding: 21px;
+    font-size: 60px;
+line-height: 70px;
+color: #FFFFFF;
+font-family:"Br" ;
+ 
+}
+.header-p{
+    font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+font-family: "Osb";
+}
+.header-content span{
+    font-size: 11px;
+line-height: 15px;
+color: #FFFFFF;
+margin-bottom: 70px;
+font-family:"Osb" ;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    padding: 25px;
+}
+.main-content-list{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+.main-content-link a{
+    color: #48555B;
+    font-size: 12px;
+line-height: 16px;
+font-family: "Osb";
+transition: 500ms;
+}
+.main-content-link a:hover{
+    color: #00A4E5;
+
+}
+.story{
+    font-size: 18px;
+line-height: 25px;
+position: relative;
+display: flex;
+justify-content: center;
+font-family: "Ob";
+}
+.story::before{
+    position: absolute;
+    content:"";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #00A4E5;
+    bottom: -22%;
+    
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"Br" ;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family:"Ob" ;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family:"Oeb" ;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family:"Or" ;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family:"Osb" ;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
